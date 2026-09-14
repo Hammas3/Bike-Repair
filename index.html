@@ -1,0 +1,2364 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Repair Karachi | Professional Motorcycle Servicing & Maintenance</title>
+    <meta name="description" content="Professional bike repair, motorcycle servicing, engine troubleshooting, and maintenance services in Karachi, Pakistan. Contact Bike Repair today.">
+    <meta name="keywords" content="Bike Repair Karachi, Motorcycle Repair Karachi, Bike Service, Motorcycle Mechanic, Bike Maintenance, Motorcycle Servicing, Bike Engine Repair, Bike Brake Repair, Motorcycle Electrical Repair, Bike Troubleshooting">
+    <link rel="canonical" href="https://bikerepair.pk/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Bike Repair Karachi | Professional Motorcycle Servicing & Maintenance">
+    <meta property="og:description" content="Professional bike repair, motorcycle servicing, engine troubleshooting, and maintenance services in Karachi, Pakistan.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_PK">
+
+    <!-- Favicon (Data URI mechanical wrench/gear icon) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e63946'><path d='M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.5-7.4-1.6l3.3 3.3-2.3 2.3-3.3-3.3c-.9 2.4-.4 5.4 1.6 7.4 1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.4-.4.4-1 0-1.4z'/></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        :root {
+            --bg-primary: #0a0d14;
+            --bg-surface: #121824;
+            --bg-card: #182030;
+            --bg-card-hover: #1e293d;
+            --accent-red: #e63946;
+            --accent-red-hover: #ff4d5a;
+            --accent-orange: #f77f00;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --border-hover: rgba(230, 57, 70, 0.4);
+            --font-heading: 'Orbitron', sans-serif;
+            --font-sans: 'Plus Jakarta Sans', sans-serif;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-primary);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6, .brand-font {
+            font-family: var(--font-heading);
+            letter-spacing: 0.5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            padding: 0.85rem 1.75rem;
+            font-family: var(--font-heading);
+            font-size: 0.875rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-red);
+            color: white;
+            box-shadow: 0 4px 20px rgba(230, 57, 70, 0.3);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--accent-red-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(230, 57, 70, 0.5);
+        }
+
+        .btn-whatsapp {
+            background-color: #25d366;
+            color: white;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #2ebd59;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: var(--text-main);
+            border-color: var(--border-color);
+        }
+
+        .btn-outline:hover {
+            border-color: var(--accent-red);
+            color: var(--accent-red);
+            transform: translateY(-2px);
+        }
+
+        /* Section Headings */
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 4rem auto;
+        }
+
+        .section-tag {
+            display: inline-block;
+            font-family: var(--font-heading);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent-red);
+            background: rgba(230, 57, 70, 0.1);
+            padding: 0.35rem 0.85rem;
+            border-radius: 50px;
+            margin-bottom: 1rem;
+            border: 1px solid rgba(230, 57, 70, 0.2);
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 3.5vw, 2.75rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--text-main);
+        }
+
+        .section-desc {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        /* Header / Sticky Navbar */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(10, 13, 20, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            transition: var(--transition);
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-family: var(--font-heading);
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--text-main);
+        }
+
+        .logo-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent-red), #b71c1c);
+            border-radius: 8px;
+            color: white;
+            box-shadow: 0 4px 12px rgba(230, 57, 70, 0.4);
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--text-main);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--accent-red);
+            transition: var(--transition);
+        }
+
+        .nav-link:hover::after, .nav-link.active::after {
+            width: 100%;
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-main);
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            padding: 160px 0 100px 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: radial-gradient(circle at 80% 30%, rgba(230, 57, 70, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 20% 80%, rgba(247, 127, 0, 0.05) 0%, transparent 50%),
+                        var(--bg-primary);
+            overflow: hidden;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .hero-content {
+            z-index: 2;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(230, 57, 70, 0.1);
+            border: 1px solid rgba(230, 57, 70, 0.3);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent-red);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 900;
+            line-height: 1.15;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-title span {
+            color: var(--accent-red);
+        }
+
+        .hero-text {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            margin-bottom: 2.5rem;
+            max-width: 600px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .hero-image-wrapper {
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+            background: var(--bg-surface);
+        }
+
+        .hero-image-wrapper img {
+            width: 100%;
+            height: 480px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .hero-image-wrapper:hover img {
+            transform: scale(1.03);
+        }
+
+        .hero-image-badge {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(10, 13, 20, 0.9);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--border-color);
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .hero-image-badge i {
+            color: var(--accent-red);
+        }
+
+        .hero-image-badge h4 {
+            font-size: 0.95rem;
+            font-weight: 700;
+        }
+
+        .hero-image-badge p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* Services Section */
+        .services {
+            padding: 100px 0;
+            background-color: var(--bg-surface);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2.5rem 2rem;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--accent-red), transparent);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--border-hover);
+            background-color: var(--bg-card-hover);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(230, 57, 70, 0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-red);
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(230, 57, 70, 0.2);
+        }
+
+        .service-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .service-desc {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .service-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: var(--font-heading);
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--accent-red);
+            transition: var(--transition);
+        }
+
+        .service-action:hover {
+            color: var(--accent-orange);
+            gap: 0.75rem;
+        }
+
+        /* Common Bike Problems */
+        .problems {
+            padding: 100px 0;
+        }
+
+        .problems-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .problem-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            padding: 1.75rem;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            transition: var(--transition);
+        }
+
+        .problem-card:hover {
+            border-color: var(--accent-red);
+            transform: translateX(5px);
+            background: var(--bg-card);
+        }
+
+        .problem-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(247, 127, 0, 0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-orange);
+            flex-shrink: 0;
+        }
+
+        .problem-content h4 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .problem-content p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .problems-cta {
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        /* Why Choose Us */
+        .why-us {
+            padding: 100px 0;
+            background-color: var(--bg-surface);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 2rem;
+        }
+
+        .why-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            padding: 2.5rem 2rem;
+            border-radius: 12px;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .why-card:hover {
+            border-color: var(--accent-red);
+            transform: translateY(-5px);
+        }
+
+        .why-icon {
+            width: 70px;
+            height: 70px;
+            background: rgba(230, 57, 70, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-red);
+            margin: 0 auto 1.5rem auto;
+            border: 1px solid rgba(230, 57, 70, 0.2);
+        }
+
+        .why-card h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .why-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* About Section */
+        .about {
+            padding: 100px 0;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-image-wrapper {
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+        }
+
+        .about-image-wrapper img {
+            width: 100%;
+            height: 460px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .about-content .section-tag {
+            margin-bottom: 1rem;
+        }
+
+        .about-content .section-title {
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .about-text {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .about-feature-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .about-feature-item i {
+            color: var(--accent-red);
+        }
+
+        /* Repair Categories */
+        .categories {
+            padding: 100px 0;
+            background-color: var(--bg-surface);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .category-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .category-card:hover {
+            border-color: var(--accent-red);
+            transform: translateY(-5px);
+            background: var(--bg-card-hover);
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .category-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(230, 57, 70, 0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-red);
+            border: 1px solid rgba(230, 57, 70, 0.2);
+            flex-shrink: 0;
+        }
+
+        .category-header h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+
+        .category-card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* How It Works */
+        .process {
+            padding: 100px 0;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+            position: relative;
+        }
+
+        .process-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .process-card:hover {
+            border-color: var(--accent-red);
+            transform: translateY(-5px);
+            background: var(--bg-card);
+        }
+
+        .process-step {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent-red);
+            color: white;
+            font-family: var(--font-heading);
+            font-size: 0.8rem;
+            font-weight: 800;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(230, 57, 70, 0.4);
+        }
+
+        .process-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(230, 57, 70, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-red);
+            margin: 1rem auto 1.5rem auto;
+            border: 1px solid rgba(230, 57, 70, 0.2);
+        }
+
+        .process-card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .process-card p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Interactive Problem Checker */
+        .checker-section {
+            padding: 100px 0;
+            background-color: var(--bg-surface);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .checker-box {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 3rem 2.5rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .checker-form-group {
+            margin-bottom: 2rem;
+        }
+
+        .checker-form-group label {
+            display: block;
+            font-family: var(--font-heading);
+            font-size: 0.9rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--text-main);
+        }
+
+        .checker-select {
+            width: 100%;
+            padding: 1rem 1.25rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            outline: none;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .checker-select:focus {
+            border-color: var(--accent-red);
+            box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.2);
+        }
+
+        .checker-result {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-top: 2rem;
+            display: none;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .checker-result.active {
+            display: block;
+        }
+
+        .checker-result h4 {
+            font-size: 1.2rem;
+            color: var(--accent-orange);
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .checker-result p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .checker-disclaimer {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 1.5rem;
+            font-style: italic;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1rem;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Bike Maintenance Tips */
+        .tips {
+            padding: 100px 0;
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .tip-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            display: flex;
+            gap: 1.25rem;
+            transition: var(--transition);
+        }
+
+        .tip-card:hover {
+            border-color: var(--accent-red);
+            background: var(--bg-card);
+            transform: translateY(-3px);
+        }
+
+        .tip-number {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--accent-red);
+            opacity: 0.8;
+            flex-shrink: 0;
+        }
+
+        .tip-content h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .tip-content p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* FAQ Section */
+        .faq {
+            padding: 100px 0;
+            background-color: var(--bg-surface);
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .faq-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .faq-item.active {
+            border-color: var(--accent-red);
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 1.5rem;
+            background: none;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: left;
+            font-family: var(--font-heading);
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text-main);
+            cursor: pointer;
+            gap: 1rem;
+        }
+
+        .faq-icon {
+            color: var(--accent-red);
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .faq-item.active .faq-icon {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            padding: 0 1.5rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 200px;
+            padding-bottom: 1.5rem;
+        }
+
+        /* Contact Section - ZERO IMAGES */
+        .contact {
+            padding: 100px 0;
+            background: var(--bg-primary);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 4rem;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .contact-info-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1.25rem;
+        }
+
+        .contact-info-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(230, 57, 70, 0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-red);
+            border: 1px solid rgba(230, 57, 70, 0.2);
+            flex-shrink: 0;
+        }
+
+        .contact-info-text h3 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 0.35rem;
+            letter-spacing: 1px;
+        }
+
+        .contact-info-text p, .contact-info-text a {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-main);
+            transition: var(--transition);
+        }
+
+        .contact-info-text a:hover {
+            color: var(--accent-red);
+        }
+
+        .contact-form-wrapper {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 3rem;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            font-family: var(--font-heading);
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.9rem 1.25rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            font-size: 0.95rem;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            border-color: var(--accent-red);
+            box-shadow: 0 0 0 3px rgba(230, 57, 70, 0.2);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .form-error {
+            color: var(--accent-red);
+            font-size: 0.75rem;
+            margin-top: 0.35rem;
+            display: none;
+        }
+
+        .form-control.error {
+            border-color: var(--accent-red);
+        }
+
+        .form-success-msg {
+            background: rgba(37, 211, 102, 0.1);
+            border: 1px solid rgba(37, 211, 102, 0.3);
+            color: #25d366;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            display: none;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        /* Footer */
+        .footer {
+            background: #06080e;
+            border-top: 1px solid var(--border-color);
+            padding: 80px 0 30px 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.2fr;
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .footer-col h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--text-main);
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+
+        .footer-col h4::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 2px;
+            background-color: var(--accent-red);
+        }
+
+        .footer-col p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-red);
+            padding-left: 5px;
+        }
+
+        .footer-contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .footer-contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .footer-contact-item i {
+            color: var(--accent-red);
+            flex-shrink: 0;
+        }
+
+        .footer-bottom {
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 45px;
+            height: 45px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-main);
+            cursor: pointer;
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background: var(--accent-red);
+            border-color: var(--accent-red);
+            transform: translateY(-3px);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .hero-grid, .about-grid, .contact-grid, .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+
+            .hero-image-wrapper, .about-image-wrapper {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            .nav-menu {
+                position: fixed;
+                top: 80px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 80px);
+                background: var(--bg-primary);
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                transition: 0.4s ease;
+                border-top: 1px solid var(--border-color);
+            }
+
+            .nav-menu.active {
+                left: 0;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            .nav-actions {
+                display: none;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .checker-box, .contact-form-wrapper {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i data-lucide="wrench"></i>
+                </div>
+                <span>Bike Repair</span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#repairs" class="nav-link">Repairs</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="tel:03452662604" class="btn btn-outline" style="padding: 0.6rem 1rem; font-size: 0.8rem;">
+                    <i data-lucide="phone" style="width: 16px; height: 16px;"></i> Call
+                </a>
+                <a href="https://wa.me/923452662604" target="_blank" rel="noopener" class="btn btn-whatsapp" style="padding: 0.6rem 1rem; font-size: 0.8rem;">
+                    <i data-lucide="message-square" style="width: 16px; height: 16px;"></i> WhatsApp
+                </a>
+            </div>
+
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <i data-lucide="menu" style="width: 28px; height: 28px;"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i data-lucide="shield-check" style="width: 16px; height: 16px;"></i>
+                        Expert Motorcycle Workshop in Karachi
+                    </div>
+                    <h1 class="hero-title">Professional <span>Bike Repair</span> & Maintenance Services</h1>
+                    <p class="hero-text">Bike Repair provides professional motorcycle repair, servicing, maintenance, and comprehensive troubleshooting right here in Karachi, Pakistan.</p>
+                    <div class="hero-buttons">
+                        <a href="tel:03452662604" class="btn btn-primary">
+                            <i data-lucide="phone" style="width: 18px; height: 18px;"></i> Call Now
+                        </a>
+                        <a href="https://wa.me/923452662604" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                            <i data-lucide="message-square" style="width: 18px; height: 18px;"></i> WhatsApp Us
+                        </a>
+                        <a href="#services" class="btn btn-outline">Explore Services</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <!-- Strict rule: Motorcycle repair & maintenance related image -->
+                    <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1000&q=80" alt="Professional motorcycle workshop mechanic performing bike engine repair and maintenance in Karachi" loading="lazy">
+                    <div class="hero-image-badge">
+                        <i data-lucide="wrench" style="width: 24px; height: 24px;"></i>
+                        <div>
+                            <h4>Precision Tuning & Repair</h4>
+                            <p>Engineered for peak performance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What We Offer</span>
+                <h2 class="section-title">Professional Repair Services</h2>
+                <p class="section-desc">Comprehensive maintenance, diagnostic, and repair solutions tailored for all motorcycle types in Karachi.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="wrench"></i></div>
+                    <h3 class="service-title">Bike Repair</h3>
+                    <p class="service-desc">Complete mechanical inspection and targeted repair work to restore your motorcycle's functionality.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20would%20like%20to%20request%20Bike%20Repair%20service." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="cpu"></i></div>
+                    <h3 class="service-title">Motorcycle Servicing</h3>
+                    <p class="service-desc">Routine scheduled servicing to maintain smooth rides, optimal fuel efficiency, and longevity.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20would%20like%20to%20request%20Motorcycle%20Servicing." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="activity"></i></div>
+                    <h3 class="service-title">Engine Troubleshooting</h3>
+                    <p class="service-desc">Detailed engine diagnostics to identify underlying performance drops, strange noises, or misfires.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20need%20Engine%20Troubleshooting%20for%20my%20bike." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="disc"></i></div>
+                    <h3 class="service-title">Brake Service</h3>
+                    <p class="service-desc">Brake pad replacement, disc inspection, cable tensioning, and hydraulic fluid checks for absolute safety.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20would%20like%20to%20request%20Brake%20Service." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="link"></i></div>
+                    <h3 class="service-title">Chain Adjustment & Maintenance</h3>
+                    <p class="service-desc">Drive chain tension adjustment, deep cleaning, and professional lubrication to prevent wear.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20need%20Chain%20Adjustment%20and%20Maintenance." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="compass"></i></div>
+                    <h3 class="service-title">Tire & Wheel Service</h3>
+                    <p class="service-desc">Tire condition inspection, pressure check, puncture repairs, and wheel alignment checks.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20would%20like%20to%20request%20Tire%20and%20Wheel%20Service." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="droplet"></i></div>
+                    <h3 class="service-title">Oil Change</h3>
+                    <p class="service-desc">Engine oil draining and replacement with high-grade lubricants suited for your specific bike model.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20need%20an%20Oil%20Change%20for%20my%20motorcycle." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="battery-charging"></i></div>
+                    <h3 class="service-title">Battery Service</h3>
+                    <p class="service-desc">Battery health testing, terminal cleaning, charging system checks, and secure mounting.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20need%20Battery%20Service%20for%20my%20bike." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 9 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="zap"></i></div>
+                    <h3 class="service-title">Electrical Troubleshooting</h3>
+                    <p class="service-desc">Diagnosis of wiring issues, lighting failures, ignition switch problems, and horn malfunctions.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20need%20Electrical%20Troubleshooting%20assistance." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 10 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="search"></i></div>
+                    <h3 class="service-title">Bike Inspection</h3>
+                    <p class="service-desc">Thorough multi-point inspection to evaluate overall mechanical health before long rides or purchase.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20would%20like%20to%20request%20a%20Bike%20Inspection." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 11 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="settings"></i></div>
+                    <h3 class="service-title">General Maintenance</h3>
+                    <p class="service-desc">Tune-ups, clutch adjustments, throttle cable calibration, and fastener tightening.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20need%20General%20Maintenance%20for%20my%20motorcycle." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+
+                <!-- Service 12 -->
+                <div class="service-card">
+                    <div class="service-icon"><i data-lucide="package"></i></div>
+                    <h3 class="service-title">Motorcycle Parts Support</h3>
+                    <p class="service-desc">Guidance and replacement support for genuine replacement components and consumables.</p>
+                    <a href="https://wa.me/923452662604?text=Hi,%20I%20need%20Motorcycle%20Parts%20Support." target="_blank" rel="noopener" class="service-action">
+                        Request Service <i data-lucide="arrow-right" style="width: 16px; height: 16px;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Common Bike Problems -->
+    <section id="repairs" class="problems">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Diagnostics & Issues</span>
+                <h2 class="section-title">Common Bike Problems</h2>
+                <p class="section-desc">Recognizing early symptoms helps prevent major breakdowns and expensive repairs.</p>
+            </div>
+
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="alert-circle"></i></div>
+                    <div class="problem-content">
+                        <h4>Bike Not Starting</h4>
+                        <p>Ignition or starter motor issues.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="trending-down"></i></div>
+                    <div class="problem-content">
+                        <h4>Engine Performance</h4>
+                        <p>Sluggish pickup or fuel inefficiency.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="shield-alert"></i></div>
+                    <div class="problem-content">
+                        <h4>Brake Problems</h4>
+                        <p>Soft lever feel or stopping delay.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="git-commit"></i></div>
+                    <div class="problem-content">
+                        <h4>Chain Problems</h4>
+                        <p>Loose, noisy, or stiff drive chain.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="battery"></i></div>
+                    <div class="problem-content">
+                        <h4>Battery Issues</h4>
+                        <p>Weak self-start or failing lights.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="power"></i></div>
+                    <div class="problem-content">
+                        <h4>Electrical Problems</h4>
+                        <p>Faulty indicators, horn, or wiring.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="disc"></i></div>
+                    <div class="problem-content">
+                        <h4>Tire/Wheel Issues</h4>
+                        <p>Frequent air loss or vibration.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="volume-2"></i></div>
+                    <div class="problem-content">
+                        <h4>Unusual Engine Noise</h4>
+                        <p>Rattling or knocking sounds.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="droplet"></i></div>
+                    <div class="problem-content">
+                        <h4>Oil/Fluid Leakage</h4>
+                        <p>Seepages around engine or forks.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="help-circle"></i></div>
+                    <div class="problem-content">
+                        <h4>Starting Problems</h4>
+                        <p>Hard starting during cold starts.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="activity"></i></div>
+                    <div class="problem-content">
+                        <h4>Poor Performance</h4>
+                        <p>Rough idling and hesitation.</p>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon"><i data-lucide="tool"></i></div>
+                    <div class="problem-content">
+                        <h4>General Maintenance</h4>
+                        <p>Overdue tune-ups and oil changes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="problems-cta">
+                <a href="https://wa.me/923452662604?text=Hi,%20I%20want%20to%20discuss%20a%20specific%20bike%20problem%20with%20you." target="_blank" rel="noopener" class="btn btn-primary">
+                    <i data-lucide="message-square" style="width: 18px; height: 18px;"></i> Discuss Your Bike Problem
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Standards</span>
+                <h2 class="section-title">Why Choose Bike Repair</h2>
+                <p class="section-desc">Dedicated to reliable, transparent, and methodical motorcycle care.</p>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i data-lucide="user-check"></i></div>
+                    <h3>Professional Approach</h3>
+                    <p>Methodical procedures applied to every motorcycle repair and service task.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><i data-lucide="search"></i></div>
+                    <h3>Careful Inspection</h3>
+                    <p>Thorough assessment of components to identify the root cause of issues.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><i data-lucide="tool"></i></div>
+                    <h3>Practical Repair Solutions</h3>
+                    <p>Effective mechanical solutions focused on safety and longevity.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><i data-lucide="message-square"></i></div>
+                    <h3>Clear Communication</h3>
+                    <p>Open discussions regarding required work and part replacements.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><i data-lucide="settings"></i></div>
+                    <h3>Maintenance-Focused Service</h3>
+                    <p>Proactive care to keep your motorcycle running smoothly across Karachi roads.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><i data-lucide="shield"></i></div>
+                    <h3>Motorcycle-Focused Support</h3>
+                    <p>Specialized attention dedicated strictly to two-wheelers and bikes.</p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon"><i data-lucide="check-circle"></i></div>
+                    <h3>Quality-Oriented Work</h3>
+                    <p>Attention to detail in every adjustment, tuning, and servicing session.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <!-- Strict rule: Motorcycle repair & maintenance related image -->
+                    <img src="https://images.unsplash.com/photo-1636761358757-0a616eb9e17e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UmVsaWFibGUlMjBNb3RvcmN5Y2xlJTIwQ2FyZXxlbnwwfHwwfHx8MA%3D%3D" alt="Motorcycle mechanic workshop service in Karachi" loading="lazy">
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">About Us</span>
+                    <h2 class="section-title">Reliable Motorcycle Care in Karachi</h2>
+                    <p class="about-text">Bike Repair is dedicated to providing dependable motorcycle repair, servicing, and maintenance support in Karachi, Pakistan. We understand how important your bike is for your daily commute and riding needs.</p>
+                    <p class="about-text">Our focus centers on delivering practical troubleshooting, meticulous maintenance, and professional handling for every bike brought to our workshop.</p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature-item">   
+                            <i data-lucide="check" style="width: 20px; height: 20px;"></i> Professional Service
+                        </div>
+                        <div class="about-feature-item">
+                            <i data-lucide="check" style="width: 20px; height: 20px;"></i> Honest Inspection
+                        </div>
+                        <div class="about-feature-item">
+                            <i data-lucide="check" style="width: 20px; height: 20px;"></i> Karachi Based
+                        </div>
+                        <div class="about-feature-item">
+                            <i data-lucide="check" style="width: 20px; height: 20px;"></i> WhatsApp Support
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Repair Categories -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Categorized Care</span>
+                <h2 class="section-title">Repair Categories</h2>
+                <p class="section-desc">Specialized attention across all core motorcycle systems.</p>
+            </div>
+
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon"><i data-lucide="cpu"></i></div>
+                        <h3>Engine & Performance</h3>
+                    </div>
+                    <p>Comprehensive diagnostics, tuning, and internal component maintenance for smooth power delivery.</p>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon"><i data-lucide="disc"></i></div>
+                        <h3>Brakes</h3>
+                    </div>
+                    <p>Brake pad replacement, disc rotor inspection, hydraulic fluid checks, and cable tension adjustments.</p>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon"><i data-lucide="link"></i></div>
+                        <h3>Chain & Drive</h3>
+                    </div>
+                    <p>Drive chain tensioning, lubrication, sprocket alignment, and wear inspection.</p>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon"><i data-lucide="compass"></i></div>
+                        <h3>Tires & Wheels</h3>
+                    </div>
+                    <p>Tread inspection, air pressure management, puncture repairs, and wheel balance checking.</p>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon"><i data-lucide="zap"></i></div>
+                        <h3>Electrical System</h3>
+                    </div>
+                    <p>Headlight, indicator, horn, ignition switch, and wiring harness troubleshooting.</p>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon"><i data-lucide="battery-charging"></i></div>
+                        <h3>Battery</h3>
+                    </div>
+                    <p>Battery voltage testing, terminal maintenance, and charging circuit verification.</p>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-header">
+                        <div class="category-icon"><i data-lucide="settings"></i></div>
+                        <h3>General Maintenance</h3>
+                    </div>
+                    <p>Scheduled oil changes, filter checks, clutch tuning, and overall hardware tightening.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Simple Steps</span>
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-desc">A straightforward process to get your motorcycle serviced or repaired without hassle.</p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="process-step">1</div>
+                    <div class="process-icon"><i data-lucide="phone-call"></i></div>
+                    <h3>Contact Us</h3>
+                    <p>Call or message us via phone or WhatsApp to discuss your bike needs.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="process-step">2</div>
+                    <div class="process-icon"><i data-lucide="message-square"></i></div>
+                    <h3>Explain the Problem</h3>
+                    <p>Describe your motorcycle's symptoms or required service type.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="process-step">3</div>
+                    <div class="process-icon"><i data-lucide="git-pull-request"></i></div>
+                    <h3>Discuss Service</h3>
+                    <p>Talk through the recommended maintenance or repair steps.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="process-step">4</div>
+                    <div class="process-icon"><i data-lucide="search"></i></div>
+                    <h3>Inspect Motorcycle</h3>
+                    <p>Bring your bike to our Karachi workshop for a detailed physical inspection.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="process-step">5</div>
+                    <div class="process-icon"><i data-lucide="check-circle-2"></i></div>
+                    <h3>Complete Repair</h3>
+                    <p>We perform the necessary maintenance and testing so you can ride safely.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Bike Problem Checker -->
+    <section class="checker-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Interactive Tool</span>
+                <h2 class="section-title">Bike Problem Checker</h2>
+                <p class="section-desc">Select an issue you are experiencing with your motorcycle for general guidance.</p>
+            </div>
+
+            <div class="checker-box">
+                <div class="checker-form-group">
+                    <label for="problemSelect">Select Your Motorcycle Issue:</label>
+                    <select id="problemSelect" class="checker-select">
+                        <option value="">-- Select a Problem --</option>
+                        <option value="Bike Won't Start">Bike Won't Start</option>
+                        <option value="Engine Problem">Engine Problem</option>
+                        <option value="Brake Problem">Brake Problem</option>
+                        <option value="Chain Problem">Chain Problem</option>
+                        <option value="Battery Problem">Battery Problem</option>
+                        <option value="Electrical Problem">Electrical Problem</option>
+                        <option value="Tire/Wheel Problem">Tire/Wheel Problem</option>
+                        <option value="Unusual Noise">Unusual Noise</option>
+                        <option value="Oil/Fluid Leakage">Oil/Fluid Leakage</option>
+                        <option value="General Service">General Service</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div id="checkerResult" class="checker-result">
+                    <h4 id="resultTitle"><i data-lucide="info" style="width: 20px; height: 20px;"></i> Selected Issue: <span id="selectedProblemName"></span></h4>
+                    <p id="resultDescription">General guidance info goes here.</p>
+                    <a id="whatsappCheckerBtn" href="#" target="_blank" rel="noopener" class="btn btn-whatsapp">
+                        <i data-lucide="message-square" style="width: 18px; height: 18px;"></i> Contact on WhatsApp
+                    </a>
+                    <div class="checker-disclaimer">
+                        This tool provides general guidance only and does not replace a professional motorcycle inspection.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bike Maintenance Tips -->
+    <section class="tips">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Educational Tips</span>
+                <h2 class="section-title">Bike Maintenance Tips</h2>
+                <p class="section-desc">Simple habits to keep your motorcycle in healthy operating condition.</p>
+            </div>
+
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-number">01</div>
+                    <div class="tip-content">
+                        <h3>Check Tire Condition</h3>
+                        <p>Regularly inspect tire tread depth and maintain correct air pressure for stable handling and safety.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">02</div>
+                    <div class="tip-content">
+                        <h3>Maintain Chain Tension</h3>
+                        <p>Keep the drive chain properly cleaned, lubricated, and tensioned to prevent premature wear.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">03</div>
+                    <div class="tip-content">
+                        <h3>Listen to Engine Sounds</h3>
+                        <p>Pay attention to any unusual knocking, rattling, or whining noises coming from the engine block.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">04</div>
+                    <div class="tip-content">
+                        <h3>Monitor Fluid Levels</h3>
+                        <p>Keep a close eye on engine oil and brake fluid levels to avoid internal component damage.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">05</div>
+                    <div class="tip-content">
+                        <h3>Check Brake Performance</h3>
+                        <p>Test your front and rear brakes periodically for responsiveness and firm lever/pedal feedback.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">06</div>
+                    <div class="tip-content">
+                        <h3>Maintain Electrical Connections</h3>
+                        <p>Ensure battery terminals are clean and lights, indicators, and horn operate reliably.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">07</div>
+                    <div class="tip-content">
+                        <h3>Address Issues Early</h3>
+                        <p>Resolve minor performance hesitations before they develop into major roadside breakdowns.</p>
+                    </div>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-number">08</div>
+                    <div class="tip-content">
+                        <h3>Follow Recommendations</h3>
+                        <p>Adhere to your motorcycle manufacturer's maintenance schedule for oil changes and tune-ups.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Got Questions?</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-desc">Find answers to common inquiries about our bike repair and maintenance services.</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What bike repair services do you provide?</span>
+                        <i data-lucide="chevron-down" class="faq-icon" style="width: 20px; height: 20px;"></i>
+                    </button>
+                    <div class="faq-answer">
+                        We provide comprehensive bike repair services including engine troubleshooting, brake maintenance, chain adjustment, tire checks, electrical repairs, and general servicing in Karachi.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you provide motorcycle servicing?</span>
+                        <i data-lucide="chevron-down" class="faq-icon" style="width: 20px; height: 20px;"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, we offer routine motorcycle servicing including oil changes, filter inspections, tuning, and general maintenance to keep your bike running smoothly.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can you help with bike starting problems?</span>
+                        <i data-lucide="chevron-down" class="faq-icon" style="width: 20px; height: 20px;"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, we diagnose and troubleshoot starting issues related to batteries, ignition systems, spark plugs, carburation, or starter motors.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you service brakes and chains?</span>
+                        <i data-lucide="chevron-down" class="faq-icon" style="width: 20px; height: 20px;"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Absolutely. Brake pad replacements, disc inspections, fluid checks, chain cleaning, lubrication, and tension adjustments are core parts of our regular services.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I contact you through WhatsApp?</span>
+                        <i data-lucide="chevron-down" class="faq-icon" style="width: 20px; height: 20px;"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, you can easily reach us via WhatsApp at 03452662604 for quick inquiries, problem discussions, and service scheduling.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What information should I provide about my bike problem?</span>
+                        <i data-lucide="chevron-down" class="faq-icon" style="width: 20px; height: 20px;"></i>
+                    </button>
+                    <div class="faq-answer">
+                        It is helpful to share your bike type, model, and a clear description of the symptoms or noises you are experiencing when you contact us.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you provide general bike maintenance?</span>
+                        <i data-lucide="chevron-down" class="faq-icon" style="width: 20px; height: 20px;"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Yes, general bike maintenance including tune-ups, cable calibrations, and fastener checks are performed at our workshop.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What should I do if my bike suddenly stops working?</span>
+                        <i data-lucide="chevron-down" class="faq-icon" style="width: 20px; height: 20px;"></i>
+                    </button>
+                    <div class="faq-answer">
+                        If your bike stops working, safely move it to the side of the road, check basic items like fuel and kill switches, and contact us by phone or WhatsApp for guidance.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - ZERO IMAGES -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact Bike Repair</h2>
+                <p class="section-desc">Reach out to us for professional motorcycle maintenance and repair support in Karachi.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon"><i data-lucide="building-2"></i></div>
+                        <div class="contact-info-text">
+                            <h3>Business Name</h3>
+                            <p>Bike Repair</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon"><i data-lucide="phone"></i></div>
+                        <div class="contact-info-text">
+                            <h3>Phone</h3>
+                            <a href="tel:03452662604">03452662604</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon"><i data-lucide="message-square"></i></div>
+                        <div class="contact-info-text">
+                            <h3>WhatsApp</h3>
+                            <a href="https://wa.me/923452662604" target="_blank" rel="noopener">03452662604</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon"><i data-lucide="map-pin"></i></div>
+                        <div class="contact-info-text">
+                            <h3>Location</h3>
+                            <p>Karachi, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                        <a href="tel:03452662604" class="btn btn-primary" style="flex: 1;">
+                            <i data-lucide="phone" style="width: 18px; height: 18px;"></i> Call Now
+                        </a>
+                        <a href="https://wa.me/923452662604" target="_blank" rel="noopener" class="btn btn-whatsapp" style="flex: 1;">
+                            <i data-lucide="message-square" style="width: 18px; height: 18px;"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <div id="formSuccess" class="form-success-msg">
+                        Thank you! Your message has been prepared. Click below to send it via WhatsApp.
+                    </div>
+
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label class="form-label" for="userName">Your Name *</label>
+                            <input type="text" id="userName" class="form-control" placeholder="Enter your name">
+                            <div class="form-error" id="nameError">Please enter your name.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="userPhone">Phone Number *</label>
+                            <input type="tel" id="userPhone" class="form-control" placeholder="e.g. 03001234567">
+                            <div class="form-error" id="phoneError">Please enter a valid phone number.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="bikeType">Bike / Motorcycle Type *</label>
+                            <input type="text" id="bikeType" class="form-control" placeholder="e.g. Honda CG 125, Yamaha YBR 125">
+                            <div class="form-error" id="bikeError">Please specify your bike or motorcycle type.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="serviceNeeded">Problem / Service Needed *</label>
+                            <input type="text" id="serviceNeeded" class="form-control" placeholder="e.g. Engine tune-up, Brake service">
+                            <div class="form-error" id="serviceError">Please specify the problem or service needed.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="userMessage">Message (Optional)</label>
+                            <textarea id="userMessage" class="form-control" placeholder="Describe any additional details..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-whatsapp" style="width: 100%;">
+                            <i data-lucide="send" style="width: 18px; height: 18px;"></i> Send via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo" style="margin-bottom: 1rem;">
+                        <div class="logo-icon">
+                            <i data-lucide="wrench"></i>
+                        </div>
+                        <span>Bike Repair</span>
+                    </a>
+                    <p>Providing professional motorcycle repair, servicing, maintenance, and troubleshooting support across Karachi, Pakistan.</p>
+                    <div class="footer-contact-item">
+                        <i data-lucide="map-pin" style="width: 18px; height: 18px;"></i>
+                        <span>Karachi, Pakistan</span>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#repairs">Repairs</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Repair Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Bike Repair</a></li>
+                        <li><a href="#services">Motorcycle Servicing</a></li>
+                        <li><a href="#services">Engine Troubleshooting</a></li>
+                        <li><a href="#services">Brake Service</a></li>
+                        <li><a href="#services">Chain Maintenance</a></li>
+                        <li><a href="#services">Oil Change</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact-info">
+                        <div class="footer-contact-item">
+                            <i data-lucide="phone" style="width: 18px; height: 18px;"></i>
+                            <a href="tel:03452662604">03452662604</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i data-lucide="message-square" style="width: 18px; height: 18px;"></i>
+                            <a href="https://wa.me/923452662604" target="_blank" rel="noopener">03452662604</a>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <a href="https://wa.me/923452662604" target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%; font-size: 0.8rem; padding: 0.7rem;">
+                                <i data-lucide="message-square" style="width: 16px; height: 16px;"></i> WhatsApp Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Bike Repair. All rights reserved.</p>
+                <p>Karachi, Pakistan</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i data-lucide="arrow-up" style="width: 20px; height: 20px;"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Set Dynamic Current Year in Footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            const icon = hamburger.querySelector('i');
+            const isOpened = navMenu.classList.contains('active');
+            icon.setAttribute('data-lucide', isOpened ? 'x' : 'menu');
+            lucide.createIcons();
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                const icon = hamburger.querySelector('i');
+                icon.setAttribute('data-lucide', 'menu');
+                lucide.createIcons();
+            });
+        });
+
+        // Active Navigation on Scroll
+        const sections = document.querySelectorAll('section');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - 150)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+
+            // Back to top button visibility
+            const backToTop = document.getElementById('backToTop');
+            if (window.pageYOffset > 500) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        document.getElementById('backToTop').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const questionBtn = item.querySelector('.faq-question');
+            questionBtn.addEventListener('click', () => {
+                const isOpen = item.classList.contains('active');
+                faqItems.forEach(i => i.classList.remove('active'));
+                if (!isOpen) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Interactive Problem Checker
+        const problemDescriptions = {
+            "Bike Won't Start": "If your bike won't start, it may be due to a discharged battery, faulty ignition switch, clogged fuel line, or spark plug fouling. We can inspect and troubleshoot the ignition and electrical systems at our Karachi workshop.",
+            "Engine Problem": "Engine issues such as rough idling, poor acceleration, or unusual smoke require professional inspection. Our mechanics examine compression, fuel delivery, and internal components.",
+            "Brake Problem": "Brake problems including soft levers, spongy feeling, squealing noises, or delayed stopping require immediate attention. We service brake pads, calipers, cables, and hydraulic fluid.",
+            "Chain Problem": "A loose, stiff, or noisy drive chain can snap or slip off the sprocket. We provide professional chain cleaning, lubrication, tension adjustment, and replacement support.",
+            "Battery Problem": "A weak battery will struggle with self-starting and dim lights. We test battery voltage, check charging circuits, and clean corroded terminals.",
+            "Electrical Problem": "Faulty headlights, indicators, horns, or wiring harnesses can compromise safety on the road. Our team systematically traces electrical faults.",
+            "Tire/Wheel Problem": "Frequent air loss, low tread depth, or wheel vibrations affect handling. We inspect tire health, check pressure, and perform puncture repairs.",
+            "Unusual Noise": "Rattling, knocking, or grinding noises often point towards loose parts, worn bearings, or internal engine wear. Professional diagnosis is recommended.",
+            "Oil/Fluid Leakage": "Oil or fluid leaks around the engine block or front forks can lead to critical component failure if left unaddressed. We inspect gaskets, seals, and sumps.",
+            "General Service": "Routine servicing includes engine oil replacement, filter checks, clutch adjustment, and fastener tightening to maintain peak motorcycle performance.",
+            "Other": "For any other specific motorcycle issues, please reach out to us directly on WhatsApp so we can discuss your bike's symptoms in detail."
+        };
+
+        const problemSelect = document.getElementById('problemSelect');
+        const checkerResult = document.getElementById('checkerResult');
+        const selectedProblemName = document.getElementById('selectedProblemName');
+        const resultDescription = document.getElementById('resultDescription');
+        const whatsappCheckerBtn = document.getElementById('whatsappCheckerBtn');
+
+        problemSelect.addEventListener('change', (e) => {
+            const val = e.target.value;
+            if (val && problemDescriptions[val]) {
+                selectedProblemName.textContent = val;
+                resultDescription.textContent = problemDescriptions[val];
+                whatsappCheckerBtn.href = `https://wa.me/923452662604?text=Hi,%20I%20am%20experiencing%20the%20following%20issue%20with%20my%20bike:%20${encodeURIComponent(val)}.`;
+                checkerResult.classList.add('active');
+            } else {
+                checkerResult.classList.remove('active');
+            }
+        });
+
+        // Contact Form Validation & WhatsApp redirection
+        const contactForm = document.getElementById('contactForm');
+        const userName = document.getElementById('userName');
+        const userPhone = document.getElementById('userPhone');
+        const bikeType = document.getElementById('bikeType');
+        const serviceNeeded = document.getElementById('serviceNeeded');
+        const userMessage = document.getElementById('userMessage');
+        const formSuccess = document.getElementById('formSuccess');
+
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            let isValid = true;
+
+            // Validate Name
+            if (!userName.value.trim()) {
+                userName.classList.add('error');
+                document.getElementById('nameError').style.display = 'block';
+                isValid = false;
+            } else {
+                userName.classList.remove('error');
+                document.getElementById('nameError').style.display = 'none';
+            }
+
+            // Validate Phone
+            if (!userPhone.value.trim() || userPhone.value.trim().length < 10) {
+                userPhone.classList.add('error');
+                document.getElementById('phoneError').style.display = 'block';
+                isValid = false;
+            } else {
+                userPhone.classList.remove('error');
+                document.getElementById('phoneError').style.display = 'none';
+            }
+
+            // Validate Bike Type
+            if (!bikeType.value.trim()) {
+                bikeType.classList.add('error');
+                document.getElementById('bikeError').style.display = 'block';
+                isValid = false;
+            } else {
+                bikeType.classList.remove('error');
+                document.getElementById('bikeError').style.display = 'none';
+            }
+
+            // Validate Service Needed
+            if (!serviceNeeded.value.trim()) {
+                serviceNeeded.classList.add('error');
+                document.getElementById('serviceError').style.display = 'block';
+                isValid = false;
+            } else {
+                serviceNeeded.classList.remove('error');
+                document.getElementById('serviceError').style.display = 'none';
+            }
+
+            if (isValid) {
+                formSuccess.style.display = 'block';
+                
+                // Construct WhatsApp Message
+                let message = `*New Service Inquiry - Bike Repair*\n\n`;
+                message += `*Name:* ${userName.value.trim()}\n`;
+                message += `*Phone:* ${userPhone.value.trim()}\n`;
+                message += `*Bike Type:* ${bikeType.value.trim()}\n`;
+                message += `*Service/Problem:* ${serviceNeeded.value.trim()}\n`;
+                if (userMessage.value.trim()) {
+                    message += `*Message:* ${userMessage.value.trim()}\n`;
+                }
+
+                const whatsappUrl = `https://wa.me/923452662604?text=${encodeURIComponent(message)}`;
+                
+                setTimeout(() => {
+                    window.open(whatsappUrl, '_blank');
+                }, 800);
+            }
+        });
+    </script>
+</body>
+</html>
